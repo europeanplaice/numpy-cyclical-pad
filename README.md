@@ -3,7 +3,8 @@ NumPy implementation of cyclical padding
 
 ## Features
 
-It provides a function of NumPy array that pads cyclically. You can easily extend an array that has patterns (e.g. seasonal time series). However, currently this function can only accept a one-dimensional array.
+It provides a function of NumPy array that pads cyclically.
+It is a variation of `numpy.pad` (https://numpy.org/doc/stable/reference/generated/numpy.pad.html). You can easily extend an array that has patterns (e.g. seasonal time series). However, currently this function can only accept a one-dimensional array.
 
 ## Definition
 ```python
