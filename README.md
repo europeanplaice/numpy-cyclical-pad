@@ -22,6 +22,9 @@ cyclical_pad(
 
 
 ## Examples
+
+The pattern in the examples is `[0, 1, 2, 3]`.
+
 ```python
 arr = np.array([0, 1, 2, 3, 0, 1])
 padded = cyclical_pad(
